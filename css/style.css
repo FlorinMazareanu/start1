@@ -1,0 +1,104 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+#header{
+	background-image: url("/start1/img/intro-bg.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+#header .header-tags{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+#header h1,h3{
+    color: white !important;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+}
+#header h1{
+	font-size: 5em;
+    font-weight: 700;
+}
+#header hr{
+	width: 40%;
+}
+#header .header-buttons{
+    overflow: hidden;
+}
+#header .list-inline {
+    overflow: hidden;
+}
+#header .list-inline li{
+    display: inline-block;
+    list-style-type: none;
+}
+#header ul {
+  list-style-type: none;
+}
+#header .btn{
+    padding: 12px;
+    border-radius: 6px;
+}
+#content .content-section-odd{
+	padding-top:50px;
+	padding-bottom: 50px;
+    background-color: #F8F8F8;
+    border:1px solid #E7E7E7;
+}
+#content .content-section-even{
+    padding-top:50px;
+    padding-bottom: 50px;
+    border:1px solid #E7E7E7;
+}
+#banner{
+   background-image: url("/start1/img/banner-bg.jpg"); 
+   background-size: cover;
+}
+#banner .banner-tags {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+#banner h2{
+    text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+    color: white !important;
+    font-size: 3em;
+    font-weight: 700;
+}
+#banner .banner-buttons {
+    text-align: right;
+    margin-top: -7px;
+}
+#banner .btn{
+    padding: 12px;
+    border-radius: 6px;
+}
+#footer ul {
+  list-style-type: circle;
+}
+#footer .list-inline {
+    margin-top: 39px;
+}
+#footer .container {
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 770px) and (min-width: 200px) {
+    #header .btn{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 770px) and (min-width: 200px) {
+    #header .btn{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #banner h2{
+        text-align: center;
+    }
+    #banner li{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
